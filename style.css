@@ -1,0 +1,443 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url(images/ali2.jpg);
+	background-position: center;
+	background-size: cover;
+	
+	background-repeat: no-repeat;
+}
+
+
+/*CSS for the Nav Bar*/
+
+.header {
+	color: white;
+	min-height: 100vh;
+	width: 100%;
+	background-image: url(images/ali.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+nav {
+	margin: 0px 0px 24px 0px;
+	background-color: #eb3838;
+	border-radius: 30px;
+	display: flex;
+	position: fixed;
+	width: 100%;
+	padding: 0% 0%;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navBar {
+	text-align: right;
+}
+
+.navBar ul li {
+	display: inline-block;
+	list-style: none;
+	padding: 8px 12px;
+	position: relative;
+}
+
+.navBar ul li a {
+	color: white;
+	margin: 20px;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+
+/*CSS for the image*/
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 45px;
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+}
+
+.name {
+	background-color: #eb3838;
+	box-shadow: 7px 7px 10px 3px red;
+	border-radius: 30px;
+	width: 500px;
+	border: 2px solid red;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	margin: 30px 0px 0px 400px;
+	padding: 20px;
+}
+
+
+/*CSS for the Icons*/
+
+.icons {
+	margin: 0px 20px;
+	top: 98%;
+	left: 40%;
+	position: absolute;
+	text-align: center;
+}
+
+.icons i {
+	background-color: grey;
+	border-radius: 50%;
+	color: white;
+	margin: 0px 5px;
+	font-family: 20px;
+}
+
+
+/*CSS for about and personal information*/
+
+.container1 {
+	display: flex;
+	margin: -36px 0px 0px 185px;;
+	padding: 20px 20px;
+	width: 930px;
+	height: 200px;
+}
+
+.column {
+	background-color: rgb(221 109 109 / 47%);
+	margin: 10px 51px;
+	box-shadow: #8f2525bf 5px 5px 16px 1px;
+	flex: 50%;
+}
+
+.column h2 {
+  margin: 5px;
+	color: white;
+}
+.column .p{
+  margin: 10px;
+}
+.column h4 {
+	color: black;
+	display: flex;
+	padding: 5px 10px;
+}
+
+.age {
+	padding: 0px 60px;
+}
+
+.email {
+	padding: 0px 40px;
+}
+
+.phone {
+	padding: 0px 35px;
+}
+
+.address {
+	padding: 0px 20px;
+}
+
+
+/*CSS for the Eduction*/
+
+.education {
+	background-color: rgb(221 109 109 / 47%);;
+	border: 1px solid red;
+	box-shadow: #8f2525bf 5px 5px 16px 1px;
+	width: 600px;
+	margin: 35px 0px 0px 390px;
+}
+
+.education .row {
+	display: flex;
+	margin: 68px 0px 7px 42px;
+}
+
+.education p {
+	margin: 0px 0px 0px 100px;
+}
+
+.education h3 {
+	border-right: 2px solid black;
+	padding: 10px;
+}
+
+.container5 h1 {
+	color: white;
+	display: block;
+}
+
+
+/*CSS for personal Skill*/
+
+.container {
+  background-color: rgb(0 0 0);
+  box-shadow: #2b6e46a8 5px 5px 16px 1px;
+	margin: 70px 200px;
+	padding: 20px 20px;
+	display: flex;
+	width: 930px;
+	height: 300px;
+}
+
+.Skill h1 {
+	color: white;
+}
+
+.container .row {
+	flex: 50%;
+	margin: 36px 0px 0px 25px;
+}
+
+.container .row h5 {
+	color: white;
+	padding: 7px 28px;
+}
+
+.progress {
+	margin: 20px auto;
+	padding: 2px;
+	width: 100%;
+	max-width: 400px;
+	border: 3px solid #05e35e;
+	height: 10px;
+	border-radius: 20px;
+}
+
+.progress .progress__bar1 {
+	height: 100%;
+	max-width: 100%;
+	border-radius: 20px;
+	background-color: #05e35e;
+	animation: fill-bar1 3s infinite;
+	animation-fill-mode: forwards;
+}
+
+@keyframes fill-bar1 {
+	from {
+		width: 0%;
+	}
+	to {
+		width: 90%;
+	}
+}
+
+.progress .progress__bar2 {
+	height: 100%;
+	max-width: 100%;
+	border-radius: 20px;
+	background-color: #05e35e;
+	animation: fill-bar2 3s infinite;
+	animation-fill-mode: forwards;
+}
+
+@keyframes fill-bar2 {
+	from {
+		width: 0%;
+	}
+	to {
+		width: 70%;
+	}
+}
+
+.progress .progress__bar3 {
+	height: 100%;
+	max-width: 100%;
+	border-radius: 20px;
+	background-color: #05e35e;
+	animation: fill-bar3 3s infinite;
+	animation-fill-mode: forwards;
+}
+
+@keyframes fill-bar3 {
+	from {
+		width: 0%;
+	}
+	to {
+		width: 50%;
+	}
+}
+
+.progress .progress__bar4 {
+	height: 100%;
+	max-width: 100%;
+	border-radius: 20px;
+	background-color: #05e35e;
+	animation: fill-bar4 3s infinite;
+	animation-fill-mode: forwards;
+}
+
+@keyframes fill-bar4 {
+	from {
+		width: 0%;
+	}
+	to {
+		width: 80%;
+	}
+}
+
+.progress .progress__bar5 {
+	height: 100%;
+	border-radius: 20px;
+	max-width: 100%;
+	background-color: #05e35e;
+	animation: fill-bar5 3s infinite;
+	animation-fill-mode: forwards;
+}
+
+@keyframes fill-bar5 {
+	from {
+		width: 0%;
+	}
+	to {
+		width: 80%;
+	}
+}
+
+.progress .progress__bar6 {
+	height: 100%;
+	max-width: 100%;
+	border-radius: 20px;
+	background-color: #05e35e;
+	animation: fill-bar6 3s infinite;
+	animation-fill-mode: forwards;
+}
+
+@keyframes fill-bar6 {
+	from {
+		width: 0%;
+	}
+	to {
+		width: 70%;
+	}
+}
+
+
+/*CSS for the Experience*/
+
+.container3 {
+	background-color: rgb(221 109 109 / 47%);
+	margin: 67px 220px;
+	padding: 20px 20px;
+	box-shadow: #8f2525bf 5px 5px 16px 1px;
+	display: flex;
+	height: 300px;
+	width: 930px;
+}
+
+.container3 .row {
+	flex: 50%;
+}
+
+.container3 h2 {
+	color: white;
+}
+
+.container3 #front {
+	margin: 50px 0px;
+	height: 240px;
+	width: 300px;
+}
+
+.container3 #web {
+	margin: 50px 60px;
+	height: 240px;
+	width: 300px;
+}
+
+.container3 #java {
+	margin: 50px 6px;
+	height: 240px;
+	width: 300px;
+}
+
+.container3 .row p {
+	text-indent: 50px;
+	margin: 20px 0px 0px 30px;
+	align-self: stretch;
+}
+
+
+/*CSS for the Form*/
+
+h1 {
+	color: white;
+	margin: 11px 8px 4px 605px;
+	position: absolute;
+	display: inline-block;
+}
+
+.form {
+	background-color: rgb(221 109 109 / 47%);;
+	box-shadow: #8f2525bf 5px 5px 16px 1px;
+	margin: 35px 400px;
+	padding: 20px 20px;
+	display: flex;
+	width: 550px;
+	height: 470px;
+}
+
+.form .row {
+	margin: 30px 0px 0px 0px;
+	flex: 50%;
+}
+
+.form .row h5 {
+	color: white;
+	margin: 20px 5px 10px 5px;
+	font-size: 20px;
+}
+
+.form .row #name {
+	border-radius: 10px;
+	padding: 5px;
+	margin: 20px 5px 20px 5px;
+}
+
+.form .row #subject {
+	border-radius: 10px;
+	padding: 5px;
+	margin: 20px 5px;
+}
+
+.form .row #email {
+	border-radius: 10px;
+	padding: 5px;
+	margin: 20px 5px;
+}
+
+.form .row #message {
+	border-radius: 10px;
+	padding: 5px;
+	margin: 20px 5px;
+}
+
+.row .address {
+	margin: 67px -13px 25px 34px;
+}
+
+.row .address h3 {
+	color: white;
+	padding: 10px;
+	margin: 50px 0px 0px 0px;
+}
+
+.row .btn {
+	background-color: black;
+	margin: 0px 30px;
+	padding: 10px 30px 10px 30px;
+	border-radius: 20px;
+}
+
+.row .btn h6 {
+	color: white;
+}
